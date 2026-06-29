@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Modernist Off-white & High-contrast Charcoal Black */
+  --color-background: #F4F1EA;
+  --color-on-background: #141414;
+  --color-surface: #F4F1EA;
+  --color-surface-dim: #E5E2D9;
+  --color-surface-bright: #FCFAF7;
+  
+  --color-surface-container-lowest: #FFFFFF;
+  --color-surface-container-low: #EBE8DF;
+  --color-surface-container: #E2DFD4;
+  --color-surface-container-high: #D7D4C8;
+  --color-surface-container-highest: #CBC7BA;
+  
+  --color-on-surface: #141414;
+  --color-on-surface-variant: #5C5A54;
+  --color-inverse-surface: #141414;
+  --color-inverse-on-surface: #F4F1EA;
+  
+  --color-outline: #141414;
+  --color-outline-variant: #5C5A54;
+  
+  --color-primary: #141414;
+  --color-on-primary: #FFFFFF;
+  --color-primary-container: #141414;
+  --color-on-primary-container: #FFFFFF;
+  
+  --color-secondary: #5C5A54;
+  --color-on-secondary: #F4F1EA;
+  --color-secondary-container: #E2DFD4;
+  --color-on-secondary-container: #141414;
+  
+  --color-tertiary: #141414;
+  --color-on-tertiary: #FFFFFF;
+  --color-tertiary-container: #EBE8DF;
+  --color-on-tertiary-container: #141414;
+
+  --color-error: #B22222;
+  --color-on-error: #FFFFFF;
+  --color-error-container: #FBD3D3;
+  --color-on-error-container: #141414;
+
+  /* Let's redefine shadows for flat, bold offsets */
+  --shadow-sm: 2px 2px 0px 0px #141414;
+  --shadow-md: 4px 4px 0px 0px #141414;
+  --shadow-lg: 6px 6px 0px 0px #141414;
+  --shadow-xl: 8px 8px 0px 0px #141414;
+
+  /* Redefining radiuses to 0px to implement sharp grid corners */
+  --radius-xs: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-3xl: 0px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}
+
+/* Custom modernist classes for beautiful typography integration */
+.header-caption {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: #A09E97;
+}
+
+.modernist-heading {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  line-height: 0.85;
+}
+
+.modernist-serif-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+/* Grid borders helper to reinforce structural forms */
+.modernist-grid-box {
+  border: 2px solid #141414;
+  background-color: #FFFFFF;
+  box-shadow: 4px 4px 0px 0px #141414;
+}
+
+.modernist-grid-box-inset {
+  border: 1px solid #141414;
+  background-color: #E2DFD4;
+}
