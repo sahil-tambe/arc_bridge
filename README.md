@@ -158,6 +158,8 @@ graph TD
 
 ```text
 arcbridge-workspace/
+├── contracts/                  # Solidity Smart Contracts, Hardhat config, FastAPI & Flutter examples
+├── foundry/                    # Foundry suite (src, script, test, foundry.toml) for Arc Testnet
 ├── docs/                       # Project documentation & reference diagrams
 │   └── images/                 # High-resolution screenshot assets
 ├── src/
