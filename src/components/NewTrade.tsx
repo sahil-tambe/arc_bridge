@@ -61,7 +61,7 @@ export default function NewTrade({ onNavigate, onInitiateTrade }: NewTradeProps)
           Initiate Global <span className="font-serif italic font-bold">Trade</span>
         </h1>
         <p className="text-body-md text-on-surface-variant font-medium">
-          Define your trade parameters. ArcBridge ensures secure USDC settlement and regulatory compliance across 150+ jurisdictions.
+          Define your trade parameters. Kestrel Trade ensures secure USDC settlement and regulatory compliance across 150+ jurisdictions.
         </p>
       </div>
 

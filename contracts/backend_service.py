@@ -1,4 +1,4 @@
-# FastAPI Backend Service Integration Example for ArcBridge
+# FastAPI Backend Service Integration Example for Kestrel Trade (Built on Arc)
 # Demonstrates production integration with ArcTestnet using web3.py
 
 import os
@@ -9,7 +9,7 @@ from web3 import Web3
 from web3.middleware import geth_poa_middleware
 
 app = FastAPI(
-    title="ArcBridge Smart Contract Settlement API",
+    title="Kestrel Trade Smart Contract Settlement API",
     description="Backend FastAPI bridge to interact with ArcTradeEscrow on Arc Testnet",
     version="1.0.0"
 )

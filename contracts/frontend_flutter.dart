@@ -1,4 +1,4 @@
-/// Flutter Web Client Component Example for ArcBridge integration.
+/// Flutter Web Client Component Example for Kestrel Trade (Built on Arc) integration.
 /// Demonstrates connecting to Metamask (web3), fetching ERC20 balances, 
 /// calling methods on ArcTradeEscrow, and displaying transactions / explorer links.
 

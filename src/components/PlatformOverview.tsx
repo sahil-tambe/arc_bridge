@@ -26,7 +26,7 @@ export default function PlatformOverview({ onNavigate, flaggedTrades, onActionOn
         <h1 className="text-4xl md:text-5xl font-sans font-black uppercase tracking-[-0.04em] leading-none text-on-surface">
           Compliance <span className="font-serif italic font-bold">Queue</span>
         </h1>
-        <p className="text-body-md text-on-surface-variant font-medium">ArcBridge Autonomous Compliance Engine (Shield v4.2) • Real-time KYB / AML monitoring</p>
+        <p className="text-body-md text-on-surface-variant font-medium">Kestrel Trade Autonomous Compliance Engine (Shield v4.2) • Real-time KYB / AML monitoring</p>
       </section>
 
       {/* Metrics Row */}

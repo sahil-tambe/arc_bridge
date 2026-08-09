@@ -1,6 +1,6 @@
 {
-  "name": "ArcBridge",
-  "description": "Institutional grade B2B financial settlement and trade tracking portal.",
+  "name": "Kestrel Trade built on Arc",
+  "description": "Institutional-grade B2B trade settlement and escrow platform built on Arc.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

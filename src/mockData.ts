@@ -212,7 +212,7 @@ export const INITIAL_NOTIFICATIONS: Notification[] = [
   {
     id: 'notif-4',
     title: 'Compliance Verified',
-    message: 'Annual KYC documentation for ArcBridge Institutional Account has been verified and approved.',
+    message: 'Annual KYC documentation for Kestrel Trade Institutional Account has been verified and approved.',
     timestamp: '1d ago',
     type: 'escrow',
     read: true,

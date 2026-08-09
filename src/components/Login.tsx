@@ -37,8 +37,8 @@ export default function Login({ onNavigate, onLogin }: LoginProps) {
       {/* Left side Form (7 cols on desktop) */}
       <div className="lg:col-span-7 flex flex-col justify-center max-w-[480px] mx-auto w-full">
         <div className="mb-lg text-center md:text-left">
-          <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-on-surface-variant mb-3 block">Powered by Arc</span>
-          <h1 className="font-sans text-[48px] md:text-[56px] font-black uppercase tracking-[-0.04em] leading-[0.8] text-on-surface mb-2">Arc Bridge</h1>
+          <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-on-surface-variant mb-3 block">Built on Arc</span>
+          <h1 className="font-sans text-[48px] md:text-[56px] font-black uppercase tracking-[-0.04em] leading-[0.8] text-on-surface mb-2">Kestrel Trade</h1>
           <div className="flex items-center gap-4 mb-4">
             <h2 className="font-sans text-lg md:text-xl font-black uppercase tracking-wider text-on-surface">Programmable Trade Settlement</h2>
             <div className="h-[3px] bg-on-surface flex-grow"></div>
@@ -82,7 +82,7 @@ export default function Login({ onNavigate, onLogin }: LoginProps) {
                   }`}
                   onClick={() => {
                     setRole('supplier');
-                    setEmail('logistics_hub_42@arcbridge.io');
+                    setEmail('logistics_hub_42@kestreltrade.io');
                   }}
                 >
                   Supplier
@@ -96,7 +96,7 @@ export default function Login({ onNavigate, onLogin }: LoginProps) {
                   }`}
                   onClick={() => {
                     setRole('compliance');
-                    setEmail('compliance_officer@arcbridge.io');
+                    setEmail('compliance_officer@kestreltrade.io');
                   }}
                 >
                   Arbiter

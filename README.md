@@ -1,4 +1,4 @@
-# ArcBridge — Programmable Trade Settlement
+# Kestrel Trade — Built on Arc
 
 <div align="center">
   <p align="center">
@@ -24,9 +24,9 @@
 
 ## 📋 Project Description
 
-**ArcBridge** is a decentralized Delivery-versus-Payment (DvP) trade settlement platform designed for international commerce. The platform enables buyers and suppliers to execute high-volume cross-border trades through programmable escrows, mitigating counterparty risks and eliminating the delays and overhead fees typical of traditional correspondent banking networks.
+**Kestrel Trade** is a decentralized Delivery-versus-Payment (DvP) trade settlement platform built on Arc for international commerce. The platform enables buyers and suppliers to execute high-volume cross-border trades through programmable escrows, mitigating counterparty risks and eliminating the delays and overhead fees typical of traditional correspondent banking networks.
 
-ArcBridge replaces legacy, manual settlement mechanisms with transparent, automated on-chain agreements. By anchoring settlements to cryptographically secured escrows, ArcBridge ensures that funds are only released to suppliers once certified shipment and customs clearances have been validated.
+Kestrel Trade replaces legacy, manual settlement mechanisms with transparent, automated on-chain agreements. By anchoring settlements to cryptographically secured escrows, Kestrel Trade ensures that funds are only released to suppliers once certified shipment and customs clearances have been validated.
 
 ---
 
@@ -43,7 +43,7 @@ International trade currently depends on antiquated, paper-heavy financial syste
 
 ## ⚡ The Solution
 
-ArcBridge introduces a programmable escrow workflow that guarantees trust, efficiency, and real-time transaction finality. 
+Kestrel Trade introduces a programmable escrow workflow that guarantees trust, efficiency, and real-time transaction finality. 
 
 ```text
 Buyer Creates Trade
@@ -59,7 +59,7 @@ Inspection Window Closes
 Funds Released Automatically to Supplier
 ```
 
-By transitioning the traditional escrow workflow onto programmatic smart contracts, ArcBridge guarantees:
+By transitioning the traditional escrow workflow onto programmatic smart contracts, Kestrel Trade guarantees:
 * **Zero Counterparty Risk:** Funds are locked in smart vaults *before* dispatch, guaranteeing payment availability to the supplier.
 * **Automatic Payout Finality:** Deliveries automatically trigger cryptographic settlement without administrative bank delays.
 * **Transparent Dispute Mediation:** Interactive quality control and inspection loops to freeze or partially refund escrowed collateral safely.
@@ -106,7 +106,7 @@ By transitioning the traditional escrow workflow onto programmatic smart contrac
 ```mermaid
 graph TD
     %% Roles
-    Buyer[Buyer Representative] -->|Lock Escrow / Track Cargo| AB[ArcBridge Portal]
+    Buyer[Buyer Representative] -->|Lock Escrow / Track Cargo| AB[Kestrel Trade Portal]
     Supplier[Supplier Representative] -->|Create Trade / Payout Release| AB
     Admin[Platform Admin] -->|Mediate Disputes / Monitor Logs| AB
 
@@ -185,7 +185,7 @@ arcbridge-workspace/
 
 ## 🚦 Why Arc?
 
-ArcBridge is designed from the ground up to utilize **Arc’s** vision of decentralized financial rails:
+Kestrel Trade is designed from the ground up to utilize **Arc’s** vision of decentralized financial rails:
 
 * **T-USDC Integration:** Institutional-grade stablecoins that clear instantly, avoiding international banking correspondent networks.
 * **Smart Escrows:** Immutable state machines enforcing delivery-versus-payment settlement contracts.
@@ -203,8 +203,8 @@ ArcBridge is designed from the ground up to utilize **Arc’s** vision of decent
 ### Installation & Run
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/arcbridge.git
-   cd arcbridge
+   git clone https://github.com/your-username/kestrel-trade.git
+   cd kestrel-trade
    ```
 
 2. **Install Dependencies**

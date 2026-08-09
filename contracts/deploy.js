@@ -3,7 +3,7 @@ const hre = require("hardhat");
 
 async function main() {
   console.log("=====================================================");
-  console.log("ArcBridge Settlement Suite - Deploying Smart Contracts");
+  console.log("Kestrel Trade Settlement Suite (Built on Arc) - Deploying Smart Contracts");
   console.log("=====================================================");
 
   const [deployer] = await hre.ethers.getSigners();

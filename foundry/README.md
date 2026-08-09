@@ -1,6 +1,6 @@
-# ArcBridge Escrow Protocol — Foundry Project Structure
+# Kestrel Trade Escrow Protocol — Foundry Project Structure (Built on Arc)
 
-This directory contains the complete **Foundry** smart contract development suite for **ArcBridge**, a Delivery-versus-Payment (DvP) trade settlement protocol built for the Arc ecosystem using stablecoins (USDC).
+This directory contains the complete **Foundry** smart contract development suite for **Kestrel Trade**, a Delivery-versus-Payment (DvP) trade settlement protocol built for the Arc ecosystem using stablecoins (USDC).
 
 ---
 

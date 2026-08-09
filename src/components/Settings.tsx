@@ -146,7 +146,7 @@ export default function Settings({ user, onLogout, onUpdateLanguage }: SettingsP
               <h4 className="text-[10px] font-black uppercase tracking-wider">Security Seal</h4>
             </div>
             <p className="text-xs text-on-surface-variant font-medium leading-relaxed">
-              Your connection to the ArcBridge settlement ledger is securely encrypted via cryptographic TLS 1.3 tunnels and backed by our multi-sig smart escrow vault.
+              Your connection to the Kestrel Trade settlement ledger is securely encrypted via cryptographic TLS 1.3 tunnels and backed by our multi-sig smart escrow vault.
             </p>
           </div>
 

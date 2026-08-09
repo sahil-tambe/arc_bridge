@@ -184,7 +184,7 @@ export default function WalletTreasury({
     const encodedUri = encodeURI(csvContent);
     const link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", `Arc_Bridge_Settlement_Ledger_${Date.now()}.csv`);
+    link.setAttribute("download", `Kestrel_Trade_Settlement_Ledger_${Date.now()}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -225,7 +225,7 @@ export default function WalletTreasury({
         <div>
           <span className="text-[10px] font-bold text-[#A09E97] uppercase tracking-[0.4em] block mb-1">Programmable Settlement Portal</span>
           <h1 className="text-4xl md:text-5xl font-sans font-black uppercase tracking-[-0.04em] leading-none text-on-surface">
-            Arc Bridge <span className="font-serif italic font-bold text-on-surface-variant">Treasury</span>
+            Kestrel Trade <span className="font-serif italic font-bold text-on-surface-variant">Treasury</span>
           </h1>
           <p className="text-body-md text-on-surface-variant font-medium mt-1">
             Enterprise custody vault, secure RPC signing services, and real-time transaction ledger.
@@ -526,7 +526,7 @@ export default function WalletTreasury({
               <div className="space-y-sm bg-on-surface text-background p-sm font-mono text-[10px] leading-relaxed max-h-[300px] overflow-y-auto rounded shadow-inner">
                 <div className="text-green-400">⚡ CLIENT SECURE CONNECTION INITIATED...</div>
                 <div>GET /api/v1/auth/status HTTP/1.1</div>
-                <div>Host: api.arcbridge.io</div>
+                <div>Host: api.kestreltrade.io</div>
                 <div>Authorization: Bearer jwt_institutional_client_token...</div>
                 <div className="text-green-400">Response: 200 OK • Session secure</div>
                 <div className="text-amber-400">[info] MPC Key Management Client Ready</div>
@@ -601,7 +601,7 @@ export default function WalletTreasury({
               <div className="flex justify-between items-center border-b-2 border-on-surface pb-sm">
                 <div>
                   <h3 className="text-base font-black uppercase tracking-tight text-on-surface">Liquidity Flow & Volume Analytics</h3>
-                  <p className="text-[11px] text-on-surface-variant font-medium">Arc Bridge Custody volume trends for {new Date().getFullYear()}</p>
+                  <p className="text-[11px] text-on-surface-variant font-medium">Kestrel Trade Custody volume trends for {new Date().getFullYear()}</p>
                 </div>
                 <span className="text-[9px] font-mono font-bold uppercase text-on-surface bg-surface border border-on-surface/20 px-2 py-0.5">Real-Time</span>
               </div>
@@ -919,7 +919,7 @@ export default function WalletTreasury({
                           timestamp: 'Just now',
                           method: simulatingFlow === 'lock' ? 'LockEscrow' : 'ReleaseEscrow',
                           from: walletAddress,
-                          to: '0xArcBridgeEscrowVaultContract',
+                          to: '0xKestrelEscrowVaultContract',
                           value: 248500,
                           status: 'success',
                           gasUsed: 52104,

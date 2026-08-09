@@ -19,7 +19,7 @@ const DEFAULT_ACCOUNTS: UserAccount[] = [
   {
     fullName: 'Sheng Hu',
     companyName: 'Shenzhen Logisense Ltd',
-    email: 'logistics_hub_42@arcbridge.io',
+    email: 'logistics_hub_42@kestreltrade.io',
     role: 'supplier',
     avatar: 'https://lh3.googleusercontent.com/aida-public/AB6AXuASOdZbR3jY_CpFY_OH-vJLulFRIBj7sBZTIml4SRX7G02fFLkYBKRztL1RqwFtq5A3NU-bqDlVofyvy3ds3AlXYqWsCyt8d-8d6XGNq0mCOQnFRxIcyUc05mhUNRWjgudT_vrjw9aUlkMZ6lJQFBJHCJAxP2BbYS4RnBePvNC63Bk3V4Kf_fnzXSjj-jQjoekap7imZBTlVcaVLYUmiqDPbbOTGfyWSk9PdKDbqAFwVl3nYWT8FoHA2jhC6QMVX37wCEcgFK-yfdI',
     walletBalance: 421000.00,
@@ -29,8 +29,8 @@ const DEFAULT_ACCOUNTS: UserAccount[] = [
   },
   {
     fullName: 'Director Vance',
-    companyName: 'ArcBridge Shield',
-    email: 'compliance_officer@arcbridge.io',
+    companyName: 'Kestrel Shield',
+    email: 'compliance_officer@kestreltrade.io',
     role: 'compliance',
     avatar: 'https://lh3.googleusercontent.com/aida-public/AB6AXuASOdZbR3jY_CpFY_OH-vJLulFRIBj7sBZTIml4SRX7G02fFLkYBKRztL1RqwFtq5A3NU-bqDlVofyvy3ds3AlXYqWsCyt8d-8d6XGNq0mCOQnFRxIcyUc05mhUNRWjgudT_vrjw9aUlkMZ6lJQFBJHCJAxP2BbYS4RnBePvNC63Bk3V4Kf_fnzXSjj-jQjoekap7imZBTlVcaVLYUmiqDPbbOTGfyWSk9PdKDbqAFwVl3nYWT8FoHA2jhC6QMVX37wCEcgFK-yfdI',
     walletBalance: 0.00,

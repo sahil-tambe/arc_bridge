@@ -67,7 +67,7 @@ const INITIAL_EXPLORER_TXS: ExplorerTx[] = [
     timestamp: '5 min ago',
     method: 'LockEscrow',
     from: '0x8aF2e49c81a20A2F7C2B30D19c6934A0a77FE492', // Alex Vance
-    to: '0xArcBridgeEscrowVaultContract',
+    to: '0xKestrelEscrowVaultContract',
     value: 124500.00,
     status: 'success',
     gasUsed: 62450,
@@ -81,7 +81,7 @@ const INITIAL_EXPLORER_TXS: ExplorerTx[] = [
     timestamp: '25 min ago',
     method: 'DispatchCargo',
     from: '0x3fa99b2c3fa88d9018a9d0c1b2a3f4e5d6c812bc', // Sheng Hu / Supplier
-    to: '0xArcBridgeEscrowVaultContract',
+    to: '0xKestrelEscrowVaultContract',
     value: 0,
     status: 'success',
     gasUsed: 45230,
@@ -95,7 +95,7 @@ const INITIAL_EXPLORER_TXS: ExplorerTx[] = [
     timestamp: '1 hour ago',
     method: 'LockEscrow',
     from: '0x8aF2e49c81a20A2F7C2B30D19c6934A0a77FE492', // Alex Vance
-    to: '0xArcBridgeEscrowVaultContract',
+    to: '0xKestrelEscrowVaultContract',
     value: 450000.00,
     status: 'success',
     gasUsed: 62450,
@@ -109,7 +109,7 @@ const INITIAL_EXPLORER_TXS: ExplorerTx[] = [
     timestamp: '3 hours ago',
     method: 'DeployEscrowContract',
     from: '0x8aF2e49c81a20A2F7C2B30D19c6934A0a77FE492', // Alex Vance
-    to: '0xArcBridgeRegistryContract',
+    to: '0xKestrelRegistryContract',
     value: 0,
     status: 'success',
     gasUsed: 125000,
@@ -123,7 +123,7 @@ const INITIAL_EXPLORER_TXS: ExplorerTx[] = [
     timestamp: '5 hours ago',
     method: 'FileQAClaim',
     from: '0x8aF2e49c81a20A2F7C2B30D19c6934A0a77FE492', // Alex Vance
-    to: '0xArcBridgeComplianceArbiterContract',
+    to: '0xKestrelComplianceArbiterContract',
     value: 248500.00,
     status: 'success',
     gasUsed: 82400,
@@ -137,7 +137,7 @@ const INITIAL_EXPLORER_TXS: ExplorerTx[] = [
     timestamp: '1 day ago',
     method: 'DeployLedgerRegistry',
     from: '0xComplianceOfficerOfficer001',
-    to: '0xArcBridgeRegistryContract',
+    to: '0xKestrelRegistryContract',
     value: 0,
     status: 'success',
     gasUsed: 350000,
@@ -253,7 +253,7 @@ export default function App() {
       timestamp: 'Just now',
       method,
       from: walletConnected ? walletAddress : (currentUser.walletAddress || '0xunknown'),
-      to: '0xArcBridgeEscrowVaultContract',
+      to: '0xKestrelEscrowVaultContract',
       value,
       status: 'success',
       gasUsed: Math.floor(40000 + Math.random() * 80000),
@@ -801,7 +801,7 @@ export default function App() {
       ...currentUser,
       role: newRole,
       fullName: newRole === 'buyer' ? 'Alex Vance' : newRole === 'supplier' ? 'Sheng Hu' : 'Director Vance',
-      companyName: newRole === 'buyer' ? 'Global BioTech Corp' : newRole === 'supplier' ? 'Shenzhen Logisense Ltd' : 'ArcBridge Shield',
+      companyName: newRole === 'buyer' ? 'Global BioTech Corp' : newRole === 'supplier' ? 'Shenzhen Logisense Ltd' : 'Kestrel Shield',
       walletAddress: newRole === 'buyer' ? '0x8aF...E492' : newRole === 'supplier' ? '0x3fa...B902' : '0xCompliance...001',
       walletBalance: newRole === 'buyer' ? 1240500.00 : newRole === 'supplier' ? 421000.00 : 0.00,
       isLoggedIn: true
@@ -823,8 +823,8 @@ export default function App() {
                 <ArrowLeftRight className="w-5 h-5 text-background" />
               </div>
               <div>
-                <span className="font-sans font-black text-lg md:text-xl text-on-surface tracking-tighter uppercase block">Arc Bridge</span>
-                <span className="text-[9px] font-bold text-on-surface-variant uppercase tracking-[0.1em] block -mt-1">Programmable Trade Settlement • Powered by Arc</span>
+                <span className="font-sans font-black text-lg md:text-xl text-on-surface tracking-tighter uppercase block">Kestrel Trade</span>
+                <span className="text-[9px] font-bold text-on-surface-variant uppercase tracking-[0.1em] block -mt-1">Programmable Trade Settlement • Built on Arc</span>
               </div>
             </div>
 

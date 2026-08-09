@@ -1,6 +1,6 @@
-# ArcBridge — Smart Contract Escrow System & Integration Suite
+# Kestrel Trade — Smart Contract Escrow System & Integration Suite (Built on Arc)
 
-This directory contains the production-grade decentralized escrow architecture for **ArcBridge**, a Delivery-versus-Payment (DvP) trade settlement protocol optimized for the Arc ecosystem. 
+This directory contains the production-grade decentralized escrow architecture for **Kestrel Trade**, a Delivery-versus-Payment (DvP) trade settlement protocol built on Arc. 
 
 Using institutional stablecoins (USDC), this system replaces legacy paper-based letters of credit and high-fee correspondent bank transfers with programmatically guaranteed agreements.
 

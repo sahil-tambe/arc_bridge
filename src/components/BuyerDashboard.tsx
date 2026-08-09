@@ -131,7 +131,7 @@ export default function BuyerDashboard({ onNavigate, onSelectTrade, trades }: Bu
           </button>
 
           <button
-            onClick={() => alert('Support representative is ready to help at support@arcbridge.io')}
+            onClick={() => alert('Support representative is ready to help at support@kestreltrade.io')}
             className="flex-none flex flex-col items-center justify-center gap-sm bg-white border-2 border-on-surface text-on-surface p-lg w-28 shadow-sm hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all cursor-pointer"
           >
             <HelpCircle className="w-7 h-7 text-on-surface" />

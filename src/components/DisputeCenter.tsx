@@ -88,7 +88,7 @@ export default function DisputeCenter({ onNavigate, trade, onRaiseDispute }: Dis
           Dispute <span className="font-serif italic font-bold text-on-surface">Center</span>
         </h1>
         <p className="text-body-md text-on-surface-variant font-medium">
-          Submit a formal claim. ArcBridge mediation protocols resolve complex contractual disputes within 48 hours.
+          Submit a formal claim. Kestrel Trade mediation protocols resolve complex contractual disputes within 48 hours.
         </p>
       </div>
 
@@ -223,7 +223,7 @@ export default function DisputeCenter({ onNavigate, trade, onRaiseDispute }: Dis
               <h4 className="text-[10px] font-black uppercase tracking-wider">Mediation Seal</h4>
             </div>
             <p className="text-xs text-on-surface-variant font-medium leading-relaxed">
-              ArcBridge secures 100% of the transaction escrow in locked vaults. Neither party can retrieve funds until verified by our multi-signature mediation committee.
+              Kestrel Trade secures 100% of the transaction escrow in locked vaults. Neither party can retrieve funds until verified by our multi-signature mediation committee.
             </p>
             
             <div className="pt-xs space-y-sm text-xs font-bold uppercase tracking-wider">
